@@ -1,0 +1,48 @@
+body{
+    background-color: lightcyan;
+    font-family: helvetica, Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 15px;
+    
+}
+.containercenter{
+    margin-top: 50px;
+}
+
+.logo{
+    margin: 25px;
+    width: 300px;
+}
+.img{
+    text-align: center; 
+}
+
+.bobbel{
+    background-color: lightblue;
+    border-radius: 20px;
+    box-shadow: 10 10 10 10 red;
+    padding: 100px;
+}
+
+h3{
+    padding: 10px;
+}
+
+.age-gender{
+    display: flex;
+    margin: 10px;
+    margin-left: 20px;
+
+}
+.alder{
+    margin-left: 20px;
+}
+
+.gender{
+    margin: 0px 30px;
+}
+
